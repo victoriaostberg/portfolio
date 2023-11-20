@@ -1,0 +1,116 @@
+#title{
+  background-image: url(./images/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Yeseva One', serif;
+}
+h1, h2, h3{
+  color: #359f70
+}
+
+#about-me{
+  background-color: #ffceae;
+}
+
+#about-me-photos{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+#resume{
+  background-color: #ffceae;
+}
+
+#cv{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+#album{
+  background-color: #ffceae;
+}
+
+.portfolio{
+  display: flex;
+  gap: 2rem;
+}
+
+.project-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project{
+  padding: 10px 10px;
+  display: block;
+}
+
+.skills{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.skills > p{
+  margin-bottom: 0px;
+}
+
+li{
+  font-weight: bold;
+}
+p{
+  font-weight: normal;
+}
+img{
+  object-fit: cover;
+}
+
+#employer{
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+#school-info{
+  font-style: italic;
+}
+
+#contact{
+  background-color: #ffceae;
+}
+
+.contact > p{
+  font-size: 18px;
+}
+.contact{
+  display: flex;
+  gap: 2rem;
+}
+
+#footer{
+  background-color: #ffceae;
+}
+
+
+@media (max-width: 480px){
+  .skills{
+    display: block;
+  }
+  .portfolio{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1100px){
+  .portfolio{
+    flex-direction: column;
+  }
+}
